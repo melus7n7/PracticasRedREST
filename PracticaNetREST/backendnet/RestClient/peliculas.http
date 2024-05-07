@@ -14,8 +14,28 @@ POST http://localhost:3000/api/peliculas
 Content-Type: application/json
 
 {
-    "titulo": "Película de prueba",
-    "sinopsis": "Sinopsis de prueba.",
+    "titulo": "La la land",
+    "sinopsis": "La película cuenta la historia de Mia, una empleada de un bar que aspira a ser actriz y Sebastian, un pianista de jazz desempleado con grandes ambiciones. A pesar de sus diferencias y sus distintas personalidades, gracias a una serie de acontecimientos sus caminos acabarán cruzándose.",
+    "anio": 2016
+}
+
+###
+POST http://localhost:3000/api/peliculas
+Content-Type: application/json
+
+{
+    "titulo": "Midsommar",
+    "sinopsis": "Una pareja estadounidense que no está pasando por su mejor momento acude con unos amigos al Midsommar, un festival de verano que se celebra cada 90 años en una aldea remota de Suecia. Lo que comienza como unas vacaciones de ensueño en un lugar en el que el sol no se pone nunca, poco a poco se convierte en una oscura pesadilla cuando los misteriosos aldeanos les invitan a participar en sus perturbadoras actividades festivas.",
+    "anio": 2019
+}
+
+###
+POST http://localhost:3000/api/peliculas
+Content-Type: application/json
+
+{
+    "titulo": "Spider-Man: Across the Spider-Verse",
+    "sinopsis": "Segunda entrega de la trilogía del universo Spider-Man centrada en Miles Morales. Tras reunirse con Gwen Stacy, el amistoso vecino de Brooklyn Spider-Man es catapultado a través del multiverso. Ahí se encuentra con la Spider Sociedad, un equipo de Spider-Personas encargadas de proteger la propia existencia del multiverso.",
     "anio": 2024
 }
 
