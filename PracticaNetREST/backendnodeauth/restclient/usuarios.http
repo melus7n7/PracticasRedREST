@@ -10,10 +10,10 @@ POST http://localhost:3000/api/usuarios
 Content-Type: application/json
 
 {
-    "email": "correo@prueba",
-    "username": "Categoria de prueba",
-    "password": "patito",
-    "nombre": "Un nuevo usuario pato",
+    "email": "jazmin@gmail",
+    "username": "jaz",
+    "password": "12345",
+    "nombre": "Jazmin Martinez",
     "rol": "Administrador"
 }
 
