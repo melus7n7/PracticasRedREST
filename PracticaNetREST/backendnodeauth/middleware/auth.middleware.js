@@ -28,8 +28,6 @@ const Authorize = (rol) => {
 
             next()
         }catch(error){
-            console.log("aaa")
-
             res.status(401).json()
         }
     }
